@@ -1,0 +1,20 @@
+<!-- this is the line that is gonna let us  tell the browser what version of html we want to use  -->
+<!DOCTYPE html>
+<!-- actual markup -->
+<html>
+    <head>
+        <!-- charset attribute : this is going to make sure that correct encoding is used when your webapp is viewed in the browser.Now a days this attribute is already set to UTF-8 by default.  -->
+        <meta charset="UTF-8">
+        <title>Indecision App</title>
+    </head>
+    <body>
+        <div id="app"></div>
+       <!-- we are going define a template in client side javascript and render it here -->
+       <script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+       <!-- react can be used in various contexts like VR,react-native for native applications  -->
+       <!-- here we are using react with browser so we are loading its companion library react-dom that is going to allow us to render our react to the browser to the dom -->
+       <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+       <script src="/scripts/app.js"></script>
+       
+    </body>
+</html>
